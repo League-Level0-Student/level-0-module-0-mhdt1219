@@ -12,17 +12,18 @@ void draw() {
 // Run the program to make sure it works before moving on.
   ellipse(300,300,150,150);
 
+
 // 3. Change the color of the ellipse when the mouse is pressed.
 //    Use the following code, but put your colors where indicated
 //    Remember to use the   fill()  command to set colors.
 
 if (mousePressed) { 
 
- 
+ fill(#F70707);
   
 } else {
   
-   
+  fill(#1134F0); 
   
 }  
   

@@ -12,16 +12,16 @@ public class PentagonCrazy {
 	private void drawPattern() {
 		
 		//  Create a new Robot
-
+		Robot rob = new Robot();
 		//  Put the robot's pen down
-
+		rob.penDown();
 		//  SPEED. Make the robot go at maximum speed (100)
-
+		rob.setSpeed(100);
 		//  COLOR. Set the pen to a color that you like for the shape
-
+		rob.setPenColor(Color.BLUE);
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape has.
 		//  				(Hint: its called PentagonCrazy)
-
+		
 		//  TURN ANGLE. Make another int variable for the angle you want the robot to turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has.
 
