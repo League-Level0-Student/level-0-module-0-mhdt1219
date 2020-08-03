@@ -13,7 +13,7 @@ public class WorldDomination {
 		
 		// 2. If they say "yes", tell them they will rule the world.
 		
-		if(input.equals("yes")){ 
+		if(input.equals("yes")){
 	
 		JOptionPane.showMessageDialog(null, "you will rule the world");	
 		}
