@@ -102,7 +102,7 @@ public class DragonFight {
 			JOptionPane.showMessageDialog(null, "Your health is " + playerHealth + ". " + "The dragon's health is " + dragonHealth + ".");
 			// (Bonus: Also display the amount of health that was lost by each in this
 			// round)
-
+			
 			}
 
 	}
